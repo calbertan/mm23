@@ -1,0 +1,32 @@
+{
+  "name": "mm23-sfure",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
+    "@chakra-ui/react": "^2.5.1",
+    "@fontsource/open-sans": "^4.5.14",
+    "@next/font": "13.1.6",
+    "@types/node": "18.14.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "firebase": "^9.17.1",
+    "next": "^13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-icons": "^4.7.1",
+    "recoil": "^0.7.6",
+    "safe-json-stringify": "^1.2.0",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/safe-json-stringify": "^1.1.2"
+  }
+}
