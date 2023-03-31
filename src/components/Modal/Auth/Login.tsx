@@ -24,7 +24,7 @@ const Login: React.FC<LoginProps> = () => {
     error,
   ] = useSignInWithEmailAndPassword(auth);  
 
-  //Firebase logix
+  //Firebase logic
   const onSubmit = (event: React.ChangeEvent<HTMLInputElement>) => {
     event.preventDefault();
 

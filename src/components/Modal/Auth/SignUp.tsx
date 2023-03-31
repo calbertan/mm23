@@ -105,9 +105,11 @@ const SignUp: React.FC = () => {
         }}
         bg="gray.50"
       />
+      {(error || userError) && (
         <Text textAlign="center" color="red" fontSize="10pt">
           {error || FIREBASE_ERRORS[userError?.message as keyof typeof FIREBASE_ERRORS]}
         </Text>
+      )}
       <Button
         width="100%"
         height="36px"
